@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.slideimg img{
+    height: 648px;
+}
+
+nav {
+    background: linear-gradient(to bottom, #fff, transparent);
+
+}
+.navbar{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+}
+.navbar-brand{
+    font-weight: 700;
+    color: black;
+}
+.btn{
+    color: #fff;
+    background-color: #db0007;
+    margin-right: 100px;
+    border-color: #d30007;
+    box-shadow: 0 0.75rem 1.5rem -0.5rem rgb(219 0 7 / 30%);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: #c50107;
+    border-color: #b5060c;
+}
+.nav-item:after{
+    content: '';
+    transform: scale(0);
+    display: block;
+    padding-bottom: 0,5rem;
+    border-bottom: 0.1rem solid #b5060c;
+    transition: .5s;
+}
+.nav-item:hover::after{
+    transform: scale(1);
+}
+.lio a:hover{
+    color: #b5060c;
+}
+.lio .lie{
+    font-weight: 500;
+}
+.navbar{
+    background-color: transparent;
+    position: fixed;
+}
+.bg-white{
+    background-color: white !important;
+    transition: 0.5s !important;
+
+}
+/* Section 2 */
+
+.section2 img,h1,h5{
+    padding: 20px;
+}
+nav.sticky{
+    padding: 5px 100px;
+    background-color: #fff;
+}
+nav.sticky ul li a{
+    color: #000;
+}
+.container2{
+    width: 1012px;
+}
+.choose1{
+    width: 700px;
+    margin: auto;
+    height: 385px;
+    display: flex;
+    text-align: left;
+}
+#carosel01.carousel-inner{
+    width: 300px;
+}
+
